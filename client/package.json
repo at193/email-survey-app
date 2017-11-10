@@ -4,10 +4,10 @@
   "private": true,
   "proxy": {
     "/auth/google": {
-      "target": "https://obscure-earth-87924.herokuapp.com"
+      "target": "http://localhost:5000"
     },
     "/api/*": {
-      "target": "https://obscure-earth-87924.herokuapp.com"
+      "target": "http://localhost:5000"
     }
   },
   "dependencies": {
